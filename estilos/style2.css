@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family:'Android';
+    src: url('../fontes/Romario.ttf') format('opentype');
+    font-weight: normal;
+ }
+
+
+.container {
+    border-width: 8px;
+    border-color: #61861c;
+    border-style: initial;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ca670a;
+    }
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #eea76c;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .contact-form {
+        margin-top: 20px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #974c0f;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #9b6014;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+    .form-group button {
+        padding: 10px 20px;
+        background-color: #61861c;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .form-group button:hover {
+        background-color: #61861c;
+    }
